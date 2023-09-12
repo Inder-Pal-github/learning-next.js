@@ -40,8 +40,37 @@ Server components cannot
     - access browser apis
     - maintain state
     - use effects
-
+#### Fetching data => from server
 #### Caching
 - Cacheable data can be cached by the client, which means that it’s stored on their device so they don't have to download it again
 - Data sources => memore, file system, network
 - Next.js have inbuild caching (file system)
+
+##### static and dynamic rendering
+###### Static rendering
+    - render at build time
+
+###### Dynamic rendering
+    - render at request time
+
+Rendering -
+
+        - Client side
+        - Server side 
+                    - static ( at build time )
+                    - dynamic ( at request time)
+
+#### Styling next.js application
+    - Global styles
+    - CSS modules
+    - Tailwind css
+    - daisy UI
+- Global Sytles (globals.css)
+- CSS modules
+    - a css file that i scoped to a component/page
+
+- Tailwind css
+    - uses utility class
+- Daisy UI
+    - most popular component library for material UI
+    
